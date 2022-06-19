@@ -1,11 +1,11 @@
 import { useState } from "react";
 import Clip from "/clipTransparent.png"
 
-const SinlgeColor = ({ hexColor }) => {
+const SingleColor = ({ hexColor }) => {
 
     const [copy, setCopy] = useState(false);
 
-    const handleCopy= (color) => () => {
+    const handleCopy = (color) => () => {
         const colorNew = `#${color}`;
         navigator.clipboard.writeText(colorNew);
         setCopy(true);
@@ -28,4 +28,4 @@ const SinlgeColor = ({ hexColor }) => {
     );
 }
  
-export default SinlgeColor;
+export default SingleColor;

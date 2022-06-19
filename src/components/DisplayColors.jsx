@@ -1,11 +1,11 @@
-import SinlgeColor from "./SinlgeColor";
+import SingleColor from "./SingleColor";
 
 const DisplayColors = ({ list }) => {
     return ( 
         <div className="colors-box">
             {
                 list.map((color, index) => (
-                    <SinlgeColor key={index} hexColor={color.hex}/>
+                    <SingleColor key={index} hexColor={color.hex}/>
                 ))
             }
         </div>
