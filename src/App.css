@@ -111,3 +111,16 @@ body{
     padding: 4px 11px;
     border-radius: 8px;
 }
+
+p.author {
+    display: flex;
+    justify-content: center;
+    FONT-VARIANT: JIS04;
+    margin-top: 3%;
+    gap: 7px;
+}
+p.author a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
