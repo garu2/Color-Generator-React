@@ -19,7 +19,7 @@ const FormColor = ({ setList }) => {
 
     return ( 
         <div className="form-color">
-            <h1>Color Palete Generator</h1>
+            <h1>Color Palette Generator</h1>
             <form onSubmit={ handleGenerator }>
                 <input type="text" placeholder="#fff" onChange={e => setColor(e.target.value)} />
                 <input type="submit" value="Generar" />
